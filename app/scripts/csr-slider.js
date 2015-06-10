@@ -1189,72 +1189,72 @@
 }(window, document));
 
 
-var vertical= {
-        prevOut: {
-            '0%': {
-                transform: {
-                    translate3d: ['0', '0', '0']
-                },
-                opacity: 1,
-                'transform-origin': ['50%', '50%', '0']
-            },
-            '100%': {
-                transform: {
-                    translate3d: ['0', '-100%', '0']
-                },
-                opacity: 1,
-                'transform-origin': ['50%', '50%', '0']
-            }
-        },
-        prevIn: {
-            '0%': {
-                transform: {
-                    translate3d: ['0', '100%', '0']
-                },
-                opacity: 1,
-                'transform-origin': ['50%', '50%', '0']
-            },
-            '100%': {
-                transform: {
-                    translate3d: ['0', '0', '0']
-                },
-                opacity: 1,
-                'transform-origin': ['50%', '50%', '0']
-            }
-        },
-        nextOut: {
-            '0%': {
-                transform: {
-                    translate3d: ['0', '0', '0']
-                },
-                opacity: 1,
-                'transform-origin': ['50%', '50%', '0']
-            },
-            '100%': {
-                transform: {
-                    translate3d: ['0', '100%', '0']
-                },
-                opacity: 1,
-                'transform-origin': ['50%', '50%', '0']
-            }
-        },
-        nextIn: {
-            '0%': {
-                transform: {
-                    translate3d: ['0', '-100%', '0']
-                },
-                opacity: 1,
-                'transform-origin': ['50%', '50%', '0']
-            },
-            '100%': {
-                transform: {
-                    translate3d: ['0', '0', '0']
-                },
-                opacity: 1,
-                'transform-origin': ['50%', '50%', '0']
-            }
-        }
-    };
+// var vertical= {
+//         prevOut: {
+//             '0%': {
+//                 transform: {
+//                     translate3d: ['0', '0', '0']
+//                 },
+//                 opacity: 1,
+//                 'transform-origin': ['50%', '50%', '0']
+//             },
+//             '100%': {
+//                 transform: {
+//                     translate3d: ['0', '-100%', '0']
+//                 },
+//                 opacity: 1,
+//                 'transform-origin': ['50%', '50%', '0']
+//             }
+//         },
+//         prevIn: {
+//             '0%': {
+//                 transform: {
+//                     translate3d: ['0', '100%', '0']
+//                 },
+//                 opacity: 1,
+//                 'transform-origin': ['50%', '50%', '0']
+//             },
+//             '100%': {
+//                 transform: {
+//                     translate3d: ['0', '0', '0']
+//                 },
+//                 opacity: 1,
+//                 'transform-origin': ['50%', '50%', '0']
+//             }
+//         },
+//         nextOut: {
+//             '0%': {
+//                 transform: {
+//                     translate3d: ['0', '0', '0']
+//                 },
+//                 opacity: 1,
+//                 'transform-origin': ['50%', '50%', '0']
+//             },
+//             '100%': {
+//                 transform: {
+//                     translate3d: ['0', '100%', '0']
+//                 },
+//                 opacity: 1,
+//                 'transform-origin': ['50%', '50%', '0']
+//             }
+//         },
+//         nextIn: {
+//             '0%': {
+//                 transform: {
+//                     translate3d: ['0', '-100%', '0']
+//                 },
+//                 opacity: 1,
+//                 'transform-origin': ['50%', '50%', '0']
+//             },
+//             '100%': {
+//                 transform: {
+//                     translate3d: ['0', '0', '0']
+//                 },
+//                 opacity: 1,
+//                 'transform-origin': ['50%', '50%', '0']
+//             }
+//         }
+//     };
 // var lol = new CsrSlider('.js-csr-slider', {
 //     carousel: true,
 //     loop: true,
