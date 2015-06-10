@@ -1267,4 +1267,4 @@ var vertical= {
 //     transitionCallback: function(i, id) {
 //         //console.log('fired')
 //     }
-});
+//});
