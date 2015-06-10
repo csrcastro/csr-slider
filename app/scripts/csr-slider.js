@@ -1255,16 +1255,16 @@ var vertical= {
             }
         }
     };
-var lol = new CsrSlider('.js-csr-slider', {
-    carousel: true,
-    loop: true,
-    interval: 5000,
-    navigation: true,
-    modernizr: window.Modernizr,
-    touch: false,
-    animations: vertical,
-    animationDirection: 1,
-    transitionCallback: function(i, id) {
-        //console.log('fired')
-    }
+// var lol = new CsrSlider('.js-csr-slider', {
+//     carousel: true,
+//     loop: true,
+//     interval: 5000,
+//     navigation: true,
+//     modernizr: window.Modernizr,
+//     touch: false,
+//     animations: vertical,
+//     animationDirection: 1,
+//     transitionCallback: function(i, id) {
+//         //console.log('fired')
+//     }
 });
