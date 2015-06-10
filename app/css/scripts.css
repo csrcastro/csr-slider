@@ -1,0 +1,43 @@
+.scale-with-grid {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom; }
+
+.js-csr-slider-list {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -moz-perspective: 1000;
+  -moz-backface-visibility: hidden;
+  -ms-perspective: 1000;
+  -ms-backface-visibility: hidden;
+  perspective: 1000;
+  backface-visibility: hidden; }
+.js-csr-slider-item {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -moz-perspective: 1000;
+  -moz-backface-visibility: hidden;
+  -ms-perspective: 1000;
+  -ms-backface-visibility: hidden;
+  perspective: 1000;
+  backface-visibility: hidden; }
+
+/*# sourceMappingURL=scripts.css.map */
